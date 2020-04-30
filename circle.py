@@ -7,9 +7,9 @@ class circle():
     def area(self):
         circle.A=self.radius*self.radius*self.pi
     def display(self):
-
         print("the Area is:",circle.A)
         print("The Circumference is: ",2*circle.pi*self.radius)
+print("Example of class to calculate Area and Circumference of a Circle")        
 c=circle()
 c.area()
 c.display()
