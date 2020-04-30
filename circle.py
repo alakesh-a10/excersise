@@ -1,4 +1,4 @@
- class circle():
+class circle():
     #class object attribute
     pi=3.14
     A=0
@@ -7,7 +7,9 @@
     def area(self):
         circle.A=self.radius*self.radius*self.pi
     def display(self):
+
         print("the Area is:",circle.A)
+        print("The Circumference is: ",2*circle.pi*self.radius)
 c=circle()
 c.area()
 c.display()
